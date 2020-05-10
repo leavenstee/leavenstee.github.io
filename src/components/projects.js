@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import Collapsible from 'react-collapsible';
 import '../App.css';
 
 class Projects extends Component {
     render() {
       return (
-        <div id="projects">
+        <Collapsible trigger="Projects">
             <div id="lookbook-project">
                 <h2> Lookbook (Personal) </h2>
                 <h3> In Progress </h3>
@@ -34,7 +35,7 @@ class Projects extends Component {
                 <h3> 2013 -> 2015 </h3>
                 <p> This was my first iOS application. A swipe based maze game with a single level design. The app was written in Objective C. Swaze is the reason I am where i am at now! </p>
             </div>
-        </div>
+        </Collapsible>
       );
     }
   }

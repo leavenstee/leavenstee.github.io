@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import Collapsible from 'react-collapsible';
 import '../App.css';
 
 class Jobs extends Component {
     render() {
       return (
-        <div id="jobs">
+        <Collapsible trigger="Jobs">
             <div id="venmo-jobs">
                 <h2> 
                     <a href="https://apps.apple.com/us/app/venmo/id351727428"> 
@@ -35,7 +36,7 @@ class Jobs extends Component {
                     While working on Current I added in the conversion of the product from a universial media player to a rewarded radio streaming application. While there I developed features, fixed bugs, tested and maintained release.
                 </p>
             </div>
-        </div>
+        </Collapsible>
       );
     }
   }
